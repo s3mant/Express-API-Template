@@ -8,6 +8,7 @@
 
 - Very simple and advanced.
 - Auto list endpoints.
+- Test it [**here**](https://express-api-template.badboyplayz.repl.co/)
 
 ## Contributing 🤝
 
