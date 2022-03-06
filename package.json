@@ -1,0 +1,31 @@
+{
+  "name": "Express-API-Template",
+  "version": "1.0.0",
+  "description": "<img width=\"150\" height=\"150\" align=\"left\" style=\"float: left; margin: 0 10px 0 0;\" alt=\"API\" src=\"https://cdn.discordapp.com/attachments/861640837170200576/891618249605808178/globe-with-meridians-emoji-by-twitter.png\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bad-Boy-Codes/Express-API-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bad-Boy-Codes/Express-API-Template/issues"
+  },
+  "homepage": "https://github.com/Bad-Boy-Codes/Express-API-Template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "express-slow-down": "^1.4.0",
+    "glob": "^7.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}

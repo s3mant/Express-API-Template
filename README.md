@@ -6,8 +6,9 @@
 
 > **An API by Bad Boy.**
 
-- ✨ Simple and easy to use
-  
+- ✨ Simple and advanced api.
+- Auto list endpoints.
+
 ## Contributing 🤝
 
 - Contributions, issues and feature requests are welcome!
