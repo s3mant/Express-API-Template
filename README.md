@@ -2,11 +2,11 @@
 
 # API 🌐
 
-[![license](https://nuggies.js.org/assets/img/license.ade17f5e.svg)](https://github.com/sujalgoel/api/blob/master/LICENSE)
+<img alt="GitHub" src="https://img.shields.io/github/license/bad-boy-codes/Express-API-Template?color=ffddee&style=flat-square">
 
 > **An API by Bad Boy.**
 
-- ✨ Simple and advanced api.
+- Very simple and advanced.
 - Auto list endpoints.
 
 ## Contributing 🤝
@@ -14,6 +14,6 @@
 - Contributions, issues and feature requests are welcome!
 - Feel free to check **[issues page](https://github.com/Bad-Boy-Codes/Express-API-Template/issues)**.
 
-## Developers 👨‍💻
+## Developers:
 
 - **[Bad Boy Codes](https://github.com/bad-boy-codes)**

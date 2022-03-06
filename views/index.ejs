@@ -37,7 +37,7 @@
     </div>
     <h2>All the available endpoints are listed below:</h2>
 		<div class="endpoints">
-      <%- routes.map(r=>`<span><a href="/${r.category}/${r.name}">${r.name}</a></span>`) %>
+      <%- routes.map(r=>`<span><a href="/${r.category}/${r.name}">${r.name}</a></span>`).join(" , ") %>
     </div>
 	</body>
 </html>
