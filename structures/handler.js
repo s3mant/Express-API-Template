@@ -6,8 +6,6 @@ const list = [];
 
 let routes = sync(resolve("./routes/**/*.js"));
 
-port = 7000;
-
 exports.load = function (app) {
   for (const directory of routes) {
     let route = require(directory);
@@ -35,9 +33,9 @@ exports.load = function (app) {
         })
     );
   }
-  console.log(`${routes.length} Routes Loaded`);
-  app.listen(port, () => {
-    console.log(`API is ready on port ${port}`);
+  console.log("Routes Loaded");
+  app.listen(7000, () => {
+    console.log("Api is ready");
   });
 };
 exports.routes = list;
