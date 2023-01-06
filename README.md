@@ -4,17 +4,12 @@
 
 <img alt="GitHub" src="https://img.shields.io/github/license/bad-boy-codes/Express-API-Template?color=ffddee&style=flat-square">
 
-> **An API by Bad Boy.**
+> **An API by [s3mant](https://github.com/s3mant).**
 
 - Very simple and advanced.
 - Auto list endpoints.
-- Test it [**here**](https://79aebb39-14f0-453a-bb32-fdb8e365d16d.id.repl.co/)
 
 ## Contributing 🤝
 
 - Contributions, issues and feature requests are welcome!
 - Feel free to check **[issues page](https://github.com/Bad-Boy-Codes/Express-API-Template/issues)**.
-
-## Developers:
-
-- **[Bad Boy Codes](https://github.com/bad-boy-codes)**
