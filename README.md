@@ -14,12 +14,12 @@
 - Contributions, issues and feature requests are welcome!
 - Feel free to check **[issues page](https://github.com/Bad-Boy-Codes/Express-API-Template/issues)**.
 
-Preview:
+## Preview:
 
-## Home Page:
+**Home Page:**
 
 <img alt="homepage preview" src="./assets/examples/home.png">
 
-## Image route:
+**Image route:**
 
 <img alt="Busted preview" src="./assets/examples/busted.png">
