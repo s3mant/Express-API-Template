@@ -1,43 +1,47 @@
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-		<title>API | Bad Boy</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <title>API | Semant</title>
 
-		<meta name="theme-color" content="#ffccee" />
-		<meta
-			property="og:image"
-			content="https://badboy.is-a.dev/public/img/homepfp.gif"
-		/>
-		<meta property="og:url" content="https://badboy.is-a.dev/api" />
-		<meta property="og:site_name" content="API | Bad Boy" />
-		<meta property="og:title" content="API | Bad Boy" />
-		<meta property="og:description" content="An API made by Bad Boy." />
+    <meta name="theme-color" content="#ffccee" />
+    <meta
+      property="og:image"
+      content="https://semant.is-a.dev/public/img/homepfp.gif"
+    />
+    <meta property="og:url" content="https://semant.is-a.dev/api" />
+    <meta property="og:site_name" content="API | Semant" />
+    <meta property="og:title" content="API | Semant" />
+    <meta property="og:description" content="An API made by Semant." />
 
-		<meta property="twitter:card" content="summary" />
-		<meta property="twitter:url" content="https://badboy.is-a.dev/api" />
-		<meta property="twitter:title" content="API | Bad Boy" />
-		<meta property="twitter:description" content="An API made by Bad Boy." />
-		<meta
-			property="twitter:image"
-			content="https://badboy.is-a.dev/public/img/homepfp.gif"
-		/>
-		<link
-			rel="shortcut icon"
-			href="https://badboy.is-a.dev/public/img/homepfp.gif"
-		/>
-		<link rel="stylesheet" href="./style.css" />
-	</head>
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://semant.is-a.dev/api" />
+    <meta property="twitter:title" content="API | Semant" />
+    <meta property="twitter:description" content="An API made by Semant." />
+    <meta
+      property="twitter:image"
+      content="https://semant.is-a.dev/public/img/homepfp.gif"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://semant.is-a.dev/public/img/homepfp.gif"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-	<body>
+  <body>
     <div class="title">
-      <h1> Api </h1>
-    <p>A cool rest api made by <a href="https://badboy.is-a.dev/">Bad Boy</a></p>
+      <h1>API</h1>
+      <p>
+        A simple rest api made by <a href="https://semant.is-a.dev/">Semant</a>.
+      </p>
     </div>
     <h2>All the available endpoints are listed below:</h2>
-		<div class="endpoints">
-      <%- routes.map(r=>`<span><a href="/${r.category}/${r.name}">${r.name}</a></span>`).join(" , ") %>
+    <div class="endpoints">
+      <%- routes.map(r=>`<span>
+        <a href="/${r.category}/${r.name}">${r.name}</a> </span
+      >`).join(" , ") %>
     </div>
-	</body>
+  </body>
 </html>

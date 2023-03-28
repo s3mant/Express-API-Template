@@ -1,13 +1,12 @@
-const Canvas = require("canvas");
+const Canvas = require("canvas"),
+  { resolve } = require("path");
 
 exports.execute = async (req, res) => {
   const query = req.query.image;
   if (!query) return res.json({ error: "provide image" });
 
   const avatar = await Canvas.loadImage(query);
-  let bg = await Canvas.loadImage(
-    "https://github.com/katie07/Imagayes/blob/main/BOS.png?raw=true"
-  );
+  let bg = await Canvas.loadImage(resolve("./assets/images/busted.png"));
 
   const canvas = Canvas.createCanvas(1000, 1000);
   const ctx = canvas.getContext(`2d`);

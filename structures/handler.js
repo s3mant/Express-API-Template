@@ -1,5 +1,5 @@
-const rateLimit = require("express-rate-limit");
-const slowDown = require("express-slow-down");
+const rateLimit = require("./ratelimit");
+const slowDown = require("./slowDown");
 const { sync } = require("glob");
 const { parse, resolve } = require("path");
 const list = [];
@@ -21,17 +21,17 @@ exports.load = function (app) {
       rateLimit({
         windowMs: 10000,
         max: 100,
-        message: "Rate Limit Exceeded"
+        message: "Rate Limit Exceeded",
       }),
       slowDown({
         windowMs: 15 * 60 * 1000,
         delayAfter: 100,
-        delayMs: 500
+        delayMs: 500,
       }),
       (...args) =>
         route.execute(...args).catch((e) => {
           console.log(e);
-          res.send({ error: "internal server error" });
+          args[1].send({ error: "internal server error" });
         })
     );
   }

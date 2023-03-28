@@ -1,26 +1,36 @@
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
+  color: white;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: bold;
+  background-color: #000000;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #505050 100px
+    ),
+    repeating-linear-gradient(#20202055, #2c2c2c);
 }
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+a:link {
+  color: rgb(168, 44, 65);
+}
+a:visited {
+  color: darkorchid;
+}
+a:hover {
+  color: cornsilk;
+}
+span a {
+  color: aqua;
 }
 .endpoints {
-  margin: auto;
-  border: 3px solid;
-  padding: 10px;
+  margin: 15px auto;
+  border: double;
+  padding: 15px;
+  font-size: x-large;
+  display: inline-block;
 }
 .endpoints::before {
   content: "[";
