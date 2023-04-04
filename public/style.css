@@ -6,12 +6,9 @@ body {
   font-weight: bold;
   background-color: #000000;
   opacity: 0.8;
-  background-image: repeating-radial-gradient(
-      circle at 0 0,
-      transparent 0,
-      #505050 100px
-    ),
-    repeating-linear-gradient(#20202055, #2c2c2c);
+  background: radial-gradient(#4c4f5a 6%, transparent 6%), #18191c;
+  background-position: 0 0, 25px 25px;
+  background-size: 25px 25px;
 }
 a:link {
   color: rgb(168, 44, 65);

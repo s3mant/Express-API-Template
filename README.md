@@ -23,3 +23,7 @@
 **Image route:**
 
 <img alt="Busted preview" src="./assets/examples/busted.png">
+
+**Text route:**
+
+<img alt="Reverse preview" src="./assets/examples/reverse.png">
