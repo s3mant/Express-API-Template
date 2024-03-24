@@ -2,7 +2,7 @@
 
 # API 🌐
 
-<img alt="GitHub" src="https://img.shields.io/github/license/bad-boy-codes/Express-API-Template?color=ffddee&style=flat-square">
+<img alt="GitHub" src="https://img.shields.io/github/license/s3mant/Express.js-API?color=ffddee&style=flat-square">
 
 > **An API by [s3mant](https://github.com/s3mant).**
 
@@ -12,7 +12,7 @@
 ## Contributing 🤝
 
 - Contributions, issues and feature requests are welcome!
-- Feel free to check **[issues page](https://github.com/Bad-Boy-Codes/Express-API-Template/issues)**.
+- Feel free to check **[issues page](https://github.com/s3mant/Express.js-API/issues)**.
 
 ## Preview:
 
